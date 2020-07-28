@@ -1,0 +1,13 @@
+{
+  "name": "ymcatwincities/custom_formatters",
+  "description": "Fork of custom_formatters.",
+  "type": "drupal-module",
+  "homepage": "https://www.drupal.org/project/custom_formatters",
+  "keywords": ["Drupal", "media", "video", "transcode", "embed"],
+  "license": "GPL-2.0-or-later",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/custom_formatters",
+    "source": "https://www.drupal.org/project/custom_formatters"
+  }
+}
