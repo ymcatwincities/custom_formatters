@@ -28,6 +28,9 @@ use Drupal\custom_formatters\FormatterInterface;
  *     "id" = "id",
  *     "label" = "label"
  *   },
+ *   config_export = {
+ *     "id"
+ *   },
  *   links = {
  *     "delete-form" = "/admin/structure/formatters/manage/{custom_formatter}/delete",
  *     "edit-form" = "/admin/structure/formatters/manage/{custom_formatter}",
