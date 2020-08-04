@@ -115,7 +115,9 @@ class Formatter extends ConfigEntityBase implements FormatterInterface {
   public static function postLoad(EntityStorageInterface $storage, array &$entities) {
     /** @var \Drupal\custom_formatters\FormatterInterface $entity */
     foreach ($entities as $entity) {
-      $entity->getFormatterType()->postLoad();
+      if ($entity->getFormatterType()) {
+        $entity->getFormatterType()->postLoad();
+      }
     }
     parent::postLoad($storage, $entities);
   }
